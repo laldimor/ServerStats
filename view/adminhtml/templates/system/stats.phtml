@@ -1,0 +1,13 @@
+<h2>Disk Space</h2>
+<p>Free Space: <?php echo number_format($block->getSystemStats()['disk_free_space'] / 1024 / 1024 / 1024, 2); ?> GB</p>
+<p>Total Space: <?php echo number_format($block->getSystemStats()['disk_total_space'] / 1024 / 1024 / 1024, 2); ?> GB</p>
+<p>Used Space: <?php echo number_format($block->getSystemStats()['disk_used_space'] / 1024 / 1024 / 1024, 2); ?> GB</p>
+<p>Disk Usage: <?php echo number_format($block->getSystemStats()['disk_usage_percentage'], 2); ?>%</p>
+
+
+<h2>Memory Usage</h2>
+<p>Memory Usage: <?php echo number_format($block->getSystemStats()['memory_usage'] / 1024 / 1024, 2); ?> MB</p>
+<p>Peak Memory Usage: <?php echo number_format($block->getSystemStats()['memory_peak_usage'] / 1024 / 1024, 2); ?> MB</p>
+
+<h2>CPU Load</h2>
+<p>Load Average (1 Min): <?php echo number_format($block->getCpuLoadPercentage(), 2); ?>%</p>
