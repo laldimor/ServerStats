@@ -49,5 +49,3 @@ Este proyecto está licenciado bajo la Licencia MIT. Ver el archivo [LICENSE](LI
 
 Para preguntas o soporte, por favor contacta a antonio.macias@aldimor.com o abre un problema en el repositorio.
 
----
-
