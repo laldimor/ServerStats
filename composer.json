@@ -2,7 +2,7 @@
     "name": "aldimor/server-stats",
     "description": "Server Stats extension for Magento 2 helps the store owner visualize the performance of the Magento server.",
     "type": "magento2-module",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "license": "proprietary",
     "authors": [
       {
